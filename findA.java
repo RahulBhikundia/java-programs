@@ -7,6 +7,7 @@ public class findA {
         for(int i=0;i<arr.length;i++){
             if(arr[i] == n){
                 found = 1;
+                break;
             }
         }
 

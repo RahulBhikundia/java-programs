@@ -1,4 +1,4 @@
-public class fabonacci {
+public class fibonacci {
     public static void main(String s[]){
         int n = Integer.parseInt(s[0]);
         
