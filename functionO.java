@@ -1,13 +1,13 @@
 import static java.lang.Math.PI;
 class functionO {
     static void Area(int s){
-        System.out.println("Area of Square:"+(s*s));
+        System.out.println(s*s);
     }
     static void Area(int l,int b){
-        System.out.println("Area of Rectangle:"+(l*b));
+        System.out.println(l*b);
     }
     static void Area(double r){
-        System.out.println("Area of Circle:"+(PI*r*r));
+        System.out.println(PI*r*r);
     }
     public static void main(String s[]){
         System.out.print("Area of Square with Dimension 4 unit:");
