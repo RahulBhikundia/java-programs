@@ -26,7 +26,7 @@ class Area{
     }
 
     void Display(){
-        System.out.println("Area of Shape:"+Area);    
+        System.out.println(Area);    
     }
 }
 
@@ -36,11 +36,11 @@ class Shape{
         Area Rectangle = new Area(2,3);
         Area Circle = new Area(4.0);
 
-        System.out.println("Area of Square with side 4:");
+        System.out.print("Area of Square with side 4:- ");
         Square.Display();
-        System.out.println("Area of Rectangle with side 4:");
+        System.out.print("Area of Rectangle with dimensions 2 and 3 units:- ");
         Rectangle.Display();
-        System.out.println("Area of Circle with Radius 4.0:");
+        System.out.print("Area of Circle with Radius 4.0:- ");
         Circle.Display();
     }
 }
