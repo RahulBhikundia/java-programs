@@ -23,5 +23,6 @@ public class constructor {
         lname = sc.nextLine();
         Greetings Obj = new Greetings(fname, lname);
         Obj.greet(); 
+        sc.close();
     }
 }

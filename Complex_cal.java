@@ -77,5 +77,6 @@ class Complex_cal
         System.out.print("Result of Subtraction of A from B:");
         D.print();
 
+        sc.close();
     }
 }

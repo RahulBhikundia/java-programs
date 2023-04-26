@@ -18,7 +18,7 @@ class FunctionOver
 {
     public static void main(String s[])
     {
-        Derived d = new Derived();
+        Base d = new Derived();
         d.print();
     }
 }
